@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sample Webpage</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -25,7 +26,7 @@
     <main>
       <section class="Home" id="home">
         <h1>Welcome to Mobile Store</h1>
-        <form action="#Home" method="post"></form>
+        <form action="#Home" method="post">
         <label for="phone_brand">Select Your Phone Brand</label>
         <select name="phone_brand" id="phone_brand">
           <option>Iphone</option>
@@ -33,30 +34,24 @@
           <option>Redmi</option>
           <option>OnePlus</option>
         </select>
-        <br />
         <label for="user_name">Name</label>
         <input type="text" name="user_name" />
-        <br />
         <label for="user_phone">Enter Your Phone Number</label>
         <input type="number" name="user_phone" />
-        <br />
         <label for="user_age">Enter Your Age</label>
         <input type="number" name="user_age" />
-        <br />
         <label for="user_dob">Enter Your Date Of Birth</label>
         <input type="date" name="user_dob" />
-        <br />
         <label for="user_email">Enter Your Email</label>
         <input type="email" name="user_email" />
-        <br />
         <label for="user_pasword">Enter Your Password</label>
         <input type="password" name="user_password" />
-        <br />
         <label for="submit">Click Submit</label>
-        <input type="submit" id="submit" />
+        <input type="submit" id="submit" class="submit_button"/>
+      </form>
       </section>
     </main>
-
+    <footer>
     <section class="about" id="About">
       <h1>About Our Company !</h1>
       <p>
@@ -79,5 +74,6 @@
         <li>Phone Exchange</li>
       </ol>
     </section>
+  </footer>
   </body>
 </html>
