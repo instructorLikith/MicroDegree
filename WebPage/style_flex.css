@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* Header section */
+.head{
+    background-color: rgb(70, 69, 69);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+}
+/* Navbar section */
+.nav_container ul{
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(70, 69, 69);
+}
+
+.nav_container ul li a{
+    color: white;
+    text-decoration: none;
+    /* margin-right: 80px; */
+}
+
+.nav_container ul li{
+    margin-right: 60px;
+}
+
+.nav_container ul li a:hover{
+    color: rgb(70, 69, 69);
+    background-color: white;
+    text-decoration: none;
+}
+
+/* Main Page section */
+main{
+    background-color: rgb(148, 156, 124);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.home{
+    text-align: center;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+label, input, select{
+    margin-bottom: 10px;
+}
+
+.submit_button{
+    background-color: rgb(143, 143, 29);
+    cursor: pointer;
+}
+
+/* footer section */
+
+footer{
+    display: flex;
+    background-color: rgb(70, 69, 69);
+}
+
+footer h1{
+    color: orange;
+}
+
+footer section {
+    border-right: 2px solid black;
+}
