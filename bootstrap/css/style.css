@@ -1,0 +1,16 @@
+.card{
+    padding-left: 30px;
+    background-color: rgb(199, 194, 194);
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer{
+    margin: 10px;
+    background-color: rgb(60, 61, 61);
+}
+
+.footer h1{
+    color: rgb(195, 205, 50);
+}

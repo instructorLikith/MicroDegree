@@ -1,15 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="index.js"></script>
-</head>
-<body>
-    <h1>Sample Project</h1>
-    <p id="sample1">This is our sample Project</p>
-    <button type="button" onclick="document.getElementById('sample1').innerHTML = 'Welcome to the class'">Click here</button>
-    <script></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Webpage</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <img src="images\mobile_store.jpg" alt="">
+        <h2>Mobile Store</h2>
+      </div>
+
+      <div class="navbar" id="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#About">About Us</a></li>
+          <li><a href="#Contact">Contact Us</a></li>
+          <li><a href="#Service">Services</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+        <h1>Phones</h1>
+        <!-- Parent -->
+        <div class="mobile-list" id="mobile"> 
+            <!-- Child1 -->
+            <div class="mobile1" id="mobile1">
+            <img src="images\mobile_store.png" alt="">
+            <p class="mobile-name">Mobile Name: Iphone</p>
+            <p class="mobile-model">Mobile Model: Iphone15</p>
+            <p class="mobile-price">Price: 50000/-</p>
+        </div>
+        <!-- Child2 -->
+        <div class="mobile" id="mobile2">   
+            <img src="images\mobile_store.png" alt="">
+            <p>Mobile Name: Samsung</p>
+            <p>Mobile Model: S23</p>
+            <p>Price" 50000/-</p>
+        </div>
+    </div>
+    <div><button type="button" onclick="update_details()">Change Phone Details </button>
+        <button type="button" onclick="add_phone()">Add New Phone</button>
+    </div>
+    </main>
+    
+    <footer>
+    <section class="about" id="About">
+      <h1>About Our Company !</h1>
+      <p>
+        Mobile Store is the best Store in the City where you will find best
+        Phone at your Budget.
+      </p>
+    </section>
+
+    <section class="contact" id="Contact">
+      <h1>Contact Us</h1>
+      <p>Address: Bengaluru</p>
+      <p>Store Phone Number: 1234567890</p>
+    </section>
+    <section class="services" id="Service">
+      <h1>Services Provided By Us</h1>
+      <ol>
+        <li>New Phone</li>
+        <li>Phone Repair</li>
+        <li>Phone Service</li>
+        <li>Phone Exchange</li>
+      </ol>
+    </section>
+  </footer>
+  <script src="script.js"></script>
+  </body>
 </html>
