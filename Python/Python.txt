@@ -1,0 +1,30 @@
+Python basic command
+
+1. To install Numpy
+	pip install numpy
+2. To install NoteBook
+	pip install notebook
+3. To Open NoteBook in our browser
+	python -m notebook
+
+Syntax
+
+1. List:
+	variable = [value1,value2,......,valuen]
+2. Tuple:
+	variale = (value1,value2,......,valuen)
+3. Set
+	variable = {value1,value2,......,valuen}
+4. Dictionary
+	variable = {"key1":value1,"key2":value2,....."keyn":valuen}
+
+OOPS:
+Class
+Syntax:
+	class 'class_name'():
+		asssignment 
+Dunder method/Python Magic Methods:
+	__init__
+	Ex:     def __init__(self):
+
+Encapsulation: __name
